@@ -100,6 +100,7 @@ img {
 }
 
 .section-title {
+    color: var(--first-color-darken);
     font-size: var(--h1-font-size);
     columns: var(--first-color);
     margin-bottom: var(--mb-3);
@@ -278,4 +279,47 @@ img {
 
 .button-light:hover {
     color: var(--first-color-lighten);
+}
+
+/* About */
+.about-container {
+    row-gap: 2rem;
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-description {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.about-img {
+    width: 250px;
+    border-radius: 0.5rem;
+    margin: 0 auto;
+}
+
+.about-info {
+    margin-bottom: var(--mb-4);
+    text-align: center;
+}
+
+.about-info-title {
+    font-size: var(--h3-font-size);
+    color: var(--first-color-dark);
+    margin-bottom: var(--mb-2);
+}
+
+.about-info-content {
+    display: flex;
+    padding-left: 1.5rem;
+    margin-bottom: var(--mb-2);
+}
+
+.about-info-icon {
+    font-size: 1.5rem;
+    color: var(--first-color);
+    margin-right: var(--mb-4);
 }
